@@ -1,0 +1,42 @@
+/* Write CSS here */
+.bg {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  background-size: cover;
+  padding: 50px;
+}
+.card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 35vh;
+  width: 35vw;
+  padding: 20px;
+}
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.imagetimer {
+  height: 20px;
+}
+.btn-container {
+  display: flex;
+  gap: 6px;
+  border-radius: 4px;
+  color: white;
+}
+button {
+  border: none;
+}
+.startbtn {
+  background-color: #1db05f;
+  color: white;
+}
+.stopbtn {
+  background-color: #ef0d36;
+  color: white;
+}
+.resetbtn {
+  background-color: #eaa800;
+  color: white;
+}
